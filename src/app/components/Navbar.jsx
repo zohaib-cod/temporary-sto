@@ -15,7 +15,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="relative w-full bg-black text-white shadow-lg">
+    <div className="relative w-full bg-orange-200 text-white shadow-lg">
       {/* Cursor Follower */}
       <motion.div
         className="fixed top-0 left-0 w-6 h-6 bg-blue-500 rounded-full pointer-events-none mix-blend-difference"
@@ -25,8 +25,8 @@ export default function Navbar() {
 
       <div className="flex justify-between items-center px-6 py-4 max-w-6xl mx-auto">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/black-logo2.png" alt="Stowave" width={40} height={40} />
-          <h1 className="text-xl font-bold tracking-wide">Stowave</h1>
+          <Image src="/black-logo2.png" alt="Stowave" width={100} height={100} />
+          {/* <h1 className="text-xl font-bold tracking-wide">Stowave</h1> */}
         </Link>
 
         <div className="hidden md:flex gap-8 text-sm font-semibold">
